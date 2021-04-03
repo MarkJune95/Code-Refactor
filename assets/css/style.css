@@ -4,12 +4,13 @@
     margin: 0;
 }
 
+/* this is body styling */
 body {
     background-color: #d9dcd6;
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/* header styling starts here */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -47,12 +48,15 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* header styling ends here */
 
 /* p {
     font-size: 16px;
     set the font-size in body
 } */
 /* .hero */
+
+/* this is styling for background image id="hero" */
 #hero {
     height: 800px;
     width: 100%;
@@ -61,7 +65,12 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+/* styling for main content sections starts here */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,95 +80,6 @@ a {
     float: right;
     margin-left: 25px;
 }
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    background-color: #2589bd;
-   
-    
-}
-
-#benefits{
-    margin-bottom: 32px;
-    color: #ffffff;
-
-}
-
-/* consolidate all in #benefits
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-#benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-
-}
-
-/* consolidate all in #benefits h3
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-#benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-
-}
-/* consolidate all in #benefits img
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
 .tools {
     margin-bottom: 20px;
     padding: 50px;
@@ -169,8 +89,6 @@ a {
     color: #ffffff;
     
 }
-
-
 
 /* consolidate all in .tools
 .online-reputation-management {
@@ -228,6 +146,92 @@ a {
     font-size: 36px;
 } */
 
+/* styling for main contents section ends here */
+
+/* styling for aside content starts here */
+.benefit-content {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    background-color: #2589bd;  
+}
+
+.benefit-description {
+    margin-bottom: 32px;
+    color: #ffffff;
+
+}
+
+/* consolidate all in .benefit-description
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+
+.benefit-description h3 {
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+/* consolidate all in .benefit-description h3
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+} */
+
+.benefit-description img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+
+}
+/* consolidate all in .benefit-description img
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} */
+
+/* styling for aside content ends here */
+
+/* styling for footer starts here */
 .footer {
     padding: 30px;
     clear: both;
@@ -238,3 +242,4 @@ a {
 .footer h2 {
     font-size: 20px;
 }
+/* styling for footer ends here */
